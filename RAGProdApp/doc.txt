@@ -1,0 +1,14 @@
+npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest
+docker run -d --name qdrantRagDb -p 6333:6333 -v "C:\Users\jcherif\Desktop\Folder\Training\p\python\fastapi\try\langgraph\RAGProdApp\qdrant_storage:/qdrant/storage" qdrant/qdrant
+
+{
+  "data": {
+    "pdf_path":"C:\\Users\\jcherif\\Downloads\\FDP--Dev-Java-Angular.pdf"
+  }
+}
+
+{
+  "data":{
+    "question":"What is the profile Title of this CV"
+  }
+}

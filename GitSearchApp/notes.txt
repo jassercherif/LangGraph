@@ -1,0 +1,6 @@
+hello world
+Flask Issues Summary:
+1. TypeError: Response.__call__() missing 2 required positional arguments: 'environ' and 'start_response'. Occurs during request handling; often due to returning a Response object incorrectly or misusing Flask's return values.
+2. ValueError: Invalid hash method 'sha256' in werkzeug.security. Caused by using an unsupported hash method string; werkzeug expects 'sha1', 'sha256' is valid in newer versions but may be misconfigured. Solution: use generate_password_hash with method='scrypt' or correct hash method.
+3. General note: Ensure Flask and Werkzeug versions are compatible; upgrade/downgrade if mismatched.
+

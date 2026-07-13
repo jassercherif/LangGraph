@@ -1,0 +1,9 @@
+python-dotenv
+requests
+langchain
+langchain-astradb
+langchain_openai
+langchain_cohere
+langgraph
+langchain_core
+langsmith
